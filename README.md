@@ -23,8 +23,8 @@ Ensure that you're in the same directory as the `env.yml` file, or provide the f
 Set up the necessary environment variables. Note that you'll need a Hugging Face account and an API key to use the Hugging Face models. Register for an account at [Hugging Face](https://huggingface.co/join) if you don't have one.
 
 ```bash
-conda env config vars set -n prompt_engineering HUGGINGFACE_MODEL=openchat/openchat-3.5-0106
-conda env config vars set -n prompt_engineering HUGGINGFACE_API_KEY=your_api_key
+conda env config vars set -n prompt_engineering OPENAI_MODEL=openchat/openchat-3.5-0106
+conda env config vars set -n prompt_engineering OPENAI_API_KEY=sk-your_api_key
 ```
 
 Replace `your_api_key` with your actual Hugging Face API key.
